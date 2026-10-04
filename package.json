@@ -1,0 +1,11 @@
+{
+  "name": "github-actions-cache-lab",
+  "version": "1.0.0",
+  "description": "A simple Node.js project for learning GitHub Actions caching and artifacts",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.js dist/index.js",
+    "start": "node src/index.js",
+    "test": "node --test"
+  }
+}
